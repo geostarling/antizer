@@ -1,7 +1,7 @@
 {:examples
    {:dependencies [[reagent "0.8.1"]
-                   [rum "0.11.2"]]
-    :plugins [[lein-cljsbuild "1.1.5"]]
+                   [rum "0.11.4"]]
+    :plugins [[lein-cljsbuild "1.1.7"]]
     :resource-paths ["examples/resources"]
     :source-paths ["examples/src"]
     :main ^:skip-aot antizer-examples.server
@@ -17,7 +17,7 @@
             :pretty-print false
             :optimizations :advanced}}}}}
 
- :examples-dist 
+ :examples-dist
    [:examples
      {:cljsbuild
        {:builds
